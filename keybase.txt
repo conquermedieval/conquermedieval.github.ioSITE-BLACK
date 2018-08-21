@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/sistematico
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sistematico.github.io
+  * I am sistematico (https://keybase.io/sistematico) on keybase.
+  * I have a public key ASBZhXGJpwYZc2T4h1FczOayo1im8W83t4OzvTcpZQMaXwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012059857189a706197364f887515ccce6b2a358a6f16f37b783b3bd372965031a5f0a",
+      "host": "keybase.io",
+      "kid": "012059857189a706197364f887515ccce6b2a358a6f16f37b783b3bd372965031a5f0a",
+      "uid": "21eff8820d91a3d8f4c1e0e5d66bdb19",
+      "username": "sistematico"
+    },
+    "merkle_root": {
+      "ctime": 1503351637,
+      "hash": "724ef62310d810c5578f884c44d77fcb7956858e1e252a9644d1bc67c8cb2f6ef1f342addf5f6015c10ef746360af284bd3961a16ddf401f15ba0bf270b3b908",
+      "hash_meta": "a3784e7d3bb25ea80722f18dce8586c2e35bdefd3e1e492918bfa20dcb30d3b1",
+      "seqno": 1340537
+    },
+    "service": {
+      "hostname": "sistematico.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.29"
+  },
+  "ctime": 1503351718,
+  "expire_in": 504576000,
+  "prev": "d2d4d047f194de3bf2658b8c846751fb653c8fdf6ff8cb2067d0c363b74af93d",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWYVxiacGGXNk+IdRXMzmsqNYpvFvN7eDs703KWUDGl8Kp3BheWxvYWTFA1F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTk4NTcxODlhNzA2MTk3MzY0Zjg4NzUxNWNjY2U2YjJhMzU4YTZmMTZmMzdiNzgzYjNiZDM3Mjk2NTAzMWE1ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTk4NTcxODlhNzA2MTk3MzY0Zjg4NzUxNWNjY2U2YjJhMzU4YTZmMTZmMzdiNzgzYjNiZDM3Mjk2NTAzMWE1ZjBhIiwidWlkIjoiMjFlZmY4ODIwZDkxYTNkOGY0YzFlMGU1ZDY2YmRiMTkiLCJ1c2VybmFtZSI6InNpc3RlbWF0aWNvIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAzMzUxNjM3LCJoYXNoIjoiNzI0ZWY2MjMxMGQ4MTBjNTU3OGY4ODRjNDRkNzdmY2I3OTU2ODU4ZTFlMjUyYTk2NDRkMWJjNjdjOGNiMmY2ZWYxZjM0MmFkZGY1ZjYwMTVjMTBlZjc0NjM2MGFmMjg0YmQzOTYxYTE2ZGRmNDAxZjE1YmEwYmYyNzBiM2I5MDgiLCJoYXNoX21ldGEiOiJhMzc4NGU3ZDNiYjI1ZWE4MDcyMmYxOGRjZTg1ODZjMmUzNWJkZWZkM2UxZTQ5MjkxOGJmYTIwZGNiMzBkM2IxIiwic2Vxbm8iOjEzNDA1Mzd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2lzdGVtYXRpY28uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjkifSwiY3RpbWUiOjE1MDMzNTE3MTgsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZDJkNGQwNDdmMTk0ZGUzYmYyNjU4YjhjODQ2NzUxZmI2NTNjOGZkZjZmZjhjYjIwNjdkMGMzNjNiNzRhZjkzZCIsInNlcW5vIjoxNiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAUQwA3dalO2ohu2pscQfgtrWsjw4sYT7rspkFax/Y3aeJu9WqH7ddlaM9zXAe9r6t1leCJW5lyl6QkKw4/qmMOqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg+kk2x4DAl+BcaVKvdUP46Lj7zdBG9tj+vOOHBbFFQmOjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sistematico
+
+==================================================================

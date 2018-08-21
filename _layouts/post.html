@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <h5 class="sub">{{ post.subtitle }}</h5>
+
+  <div class="data">
+    {{ page.date | date: "%d/%m/%Y" }}
+  </div>
+
+  <div class="tags">
+    Tags:
+    {% if post %}
+      {% assign tags = post.tags %}
+    {% else %}
+      {% assign tags = page.tags %}
+    {% endif %}
+    {% for tag in tags %}
+    <a href="/tags/#{{tag|slugize}}" class="tag">{{tag}}</a>{% unless forloop.last %}{% endunless %}
+    {% endfor %}
+  </div>
+
+  <div style="clear:both"></div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+  
+  <hr />
+  
+  {% include compartilhar.html %}
+
+  <hr />
+
+  {% include disqus.html %}
+</article>

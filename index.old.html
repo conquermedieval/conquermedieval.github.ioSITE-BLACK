@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h5 class="sub">{{ post.subtitle }}</h5>
+
+      <div class="data">
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        de
+        {% case m %}
+        {% when '1' %}janeiro
+        {% when '2' %}fevereiro
+        {% when '3' %}março
+        {% when '4' %}abril
+        {% when '5' %}maio
+        {% when '6' %}junho
+        {% when '7' %}julho
+        {% when '8' %}agosto
+        {% when '9' %}setembro
+        {% when '10' %}outubro
+        {% when '11' %}novembro
+        {% when '12' %}dezembro
+        {% endcase %}
+        de
+        {{ post.date | date: "%Y" }}
+      </div>
+
+      <div class="tags">
+        Tags:
+        {% if post %}
+          {% assign tags = post.tags %}
+        {% else %}
+          {% assign tags = page.tags %}
+        {% endif %}
+        {% for tag in tags %}
+        <a href="/tags/#{{tag|slugize}}" class="tag">{{tag}}</a>{% unless forloop.last %}{% endunless %}
+        {% endfor %}
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="entry">
+        {{ post.content | split:'<!-- mais -->' | first }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leia Mais</a>
+    </article>
+    <hr>
+  {% endfor %}
+</div>

@@ -1,0 +1,43 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$preto: #000;
+$branco: #fff;
+$cinza: #2e3440;
+$gelo: #e8e8e8;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$gray20: rgba(51, 51, 51, 0.2);
+$gray30: rgba(51, 51, 51, 0.3);
+$gray40: rgba(51, 51, 51, 0.4);
+$gray50: rgba(51, 51, 51, 0.5);
+$gray60: rgba(51, 51, 51, 0.6);
+$gray70: rgba(51, 51, 51, 0.7);
+$gray80: rgba(51, 51, 51, 0.8);
+$gray90: rgba(51, 51, 51, 0.9);
+$lightGray: #eee;
+$azul: #40526b;
+$azul2: #4183C4;
+$amarelo: #FFC107;
+$amareloEscuro: #B57801;
+$verde: #8bc34a;
+$border-radius: 2px;
+
+// Font stacks
+$opensans: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$georgia: Georgia, serif;
+$varela: "Varela Round", sans-serif;
+$nunito: "Nunito", sans-serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}

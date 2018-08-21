@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="posts">
+  <h3>Posts de {{ site.time | date: '%Y' }}</h3>
+  {% for post in site.posts %}
+
+  {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
+  {% capture nmonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
+  {% if month != nmonth %}
+  <h4>
+    {% assign mes = post.date | date: "%m" %}
+    {% case mes %}
+    {% when '01' %}janeiro
+    {% when '02' %}fevereiro
+    {% when '03' %}março
+    {% when '04' %}abril
+    {% when '05' %}maio
+    {% when '06' %}junho
+    {% when '07' %}julho
+    {% when '08' %}agosto
+    {% when '09' %}setembro
+    {% when '10' %}outubro
+    {% when '11' %}novembro
+    {% when '12' %}dezembro
+    {% endcase %}
+  </h4>
+  {% endif %}
+
+    {% unless post.next %}
+      <ul class="this">
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+      </ul>
+        <h3>Posts de {{ post.date | date: '%Y' }}</h3>
+        <ul class="past">
+      {% endif %}
+    {% endunless %}
+    <li>
+      <time>{{ post.date | date:"%d-%m" }}</time> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</div>
